@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, HelpCircle, CheckCircle, 
-  AlertTriangle, XCircle, ChevronRight, 
-  Maximize, RotateCcw, Layout, Map, MousePointer, 
-  Info, Ruler, Layers, Move, Ban
+  ArrowRight, CheckCircle, 
+  AlertTriangle, XCircle, 
+  Maximize, Layout, Map, 
+  Ruler, Move, Ban
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 
@@ -162,7 +162,7 @@ export const Lesson5_3: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
              </p>
 
              <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-8">
-                <div className="flex items-center gap-2"><Clock size={16}/> ~15–20 минут</div>
+                <div className="flex items-center gap-2"> ~15–20 минут</div>
                 <div className="flex items-center gap-2"><Map size={16}/> Анализ планов</div>
                 <div className="flex items-center gap-2"><AlertTriangle size={16}/> Работа над ошибками</div>
              </div>
@@ -208,7 +208,7 @@ export const Lesson5_3: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
           
           <div className="bg-dorren-bg p-6 rounded-xl border border-dorren-light/20">
             <h3 className="font-bold text-dorren-dark mb-3 flex items-center gap-2">
-               <HelpCircle size={18} /> Когда дешевле всего поймать ошибку?
+               Когда дешевле всего поймать ошибку?
             </h3>
             <div className="space-y-3">
                {[

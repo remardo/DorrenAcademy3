@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, HelpCircle, ChevronRight, 
-  Layers, CheckCircle, BrickWall, Hammer
+  ArrowRight, ChevronRight, 
+  Layers, CheckCircle, BrickWall
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

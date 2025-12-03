@@ -4,7 +4,7 @@ import {
   ArrowRight, Clock, HelpCircle, CheckCircle, 
   MessageSquare, User, ShieldAlert, ChevronRight, 
   FileText, AlertTriangle, MessageCircle, ThumbsUp, 
-  ThumbsDown, ArrowDown, Briefcase, Zap
+  ThumbsDown, ArrowDown, Briefcase
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

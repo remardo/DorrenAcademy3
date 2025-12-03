@@ -1,6 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight, Home } from 'lucide-react';
-import { NAV_ITEMS } from '../data';
 
 interface HeaderProps {
   onStartClick: () => void;

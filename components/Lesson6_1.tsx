@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, HelpCircle, ChevronRight, 
-  BookOpen, CheckCircle, Scale, Flame, Stethoscope, FileText
+  ArrowRight, ChevronRight, 
+  BookOpen, CheckCircle, Scale, Flame, Stethoscope
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 
