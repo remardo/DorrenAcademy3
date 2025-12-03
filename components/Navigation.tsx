@@ -21,7 +21,7 @@ export const Header: React.FC<HeaderProps> = ({ onStartClick }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-          <img src="/dorren_logo.png" alt="DORREN" className="h-12 md:h-16 w-auto" />
+          <img src="/dorren_logo.png" alt="DORREN" className="h-8 md:h-8 w-auto" />
         </div>
 
         {/* CTA Button */}
@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-dorren-dark text-white py-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
-          <img src="/dorren_logo.png" alt="DORREN" className="h-12 md:h-16 w-auto" />
+          <img src="/dorren_logo.png" alt="DORREN" className="h-8 md:h-8 w-auto" />
         </div>
         <div className="text-dorren-light/60 text-sm text-center md:text-right">
           <p>© {new Date().getFullYear()} DORREN Academy. Внутренний обучающий портал.</p>
