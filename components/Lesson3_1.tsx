@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, CheckCircle, Clock, Layers, Box, Shield, Eye, Flame, Volume2, 
+  ArrowRight, CheckCircle, Clock, Layers, Eye, Flame, Volume2, 
   HelpCircle, ChevronRight, Scale, DollarSign, PenTool, LayoutTemplate, 
   Image as ImageIcon
 } from 'lucide-react';
@@ -298,7 +298,7 @@ export const Lesson3_1: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
                     </div>
                  ) : (
                     <div className="text-center text-gray-400 p-8 border-2 border-dashed border-gray-200 rounded-xl">
-                       <p>Нажмите на любую зону схемы слева</p>
+                       <p>Нажмите на любой слой схемы слева</p>
                     </div>
                  )}
               </div>

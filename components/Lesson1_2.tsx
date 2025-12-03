@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { 
   Clock, Target, CheckCircle, ChevronRight, AlertTriangle, 
-  Settings, PenTool, Factory, Hammer, Wrench, ArrowRight,
-  FileSpreadsheet, Search, CheckSquare, XCircle
+  Settings, PenTool, Factory, Hammer, ArrowRight,
+  FileSpreadsheet
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { 
-  Clock, Target, CheckCircle, ChevronRight, FileText, 
+  Clock, Target, CheckCircle, ChevronRight, 
   BookOpen, FileSpreadsheet, PenTool, LayoutTemplate, 
-  Monitor, Search, AlertTriangle, ArrowRight, Book,
-  FileCheck, Globe, MousePointer
+  Monitor, AlertTriangle, ArrowRight,
+  FileCheck
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

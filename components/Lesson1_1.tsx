@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 import { 
-  ArrowLeft, Clock, Target, CheckCircle, ChevronDown, ChevronRight, 
+  Clock, Target, CheckCircle, ChevronRight, 
   Building2, Stethoscope, Hotel, GraduationCap, ShieldAlert,
   Info, Layout, Users, Shield, Zap, Heart
 } from 'lucide-react';
