@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { 
-  Clock, CheckCircle, ChevronRight, CheckSquare, 
+  Clock, CheckCircle, CheckSquare, 
   DoorOpen, Stethoscope, Flame, Zap, Shield, Volume2, Move,
   Info, ArrowRight, LayoutGrid, Users
 } from 'lucide-react';

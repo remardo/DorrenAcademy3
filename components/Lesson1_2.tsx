@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { 
-  Clock, Target, CheckCircle, ChevronRight, AlertTriangle, 
-  Settings, PenTool, Factory, Hammer, ArrowRight,
+  Clock, Target, CheckCircle, ChevronRight, 
+  Settings, PenTool, Factory, Hammer,
   FileSpreadsheet
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
@@ -260,7 +260,7 @@ export const Lesson1_2: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
                       {/* Virtual Tour */}
                       <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                          <div className="flex justify-between mb-4 text-xs font-bold text-gray-400 uppercase">
-                            {PRODUCTION_STEPS.map((s, i) => (
+                            {PRODUCTION_STEPS.map((_step, i) => (
                               <button key={i} onClick={() => setActiveProductionStep(i)} className={`px-2 hover:text-dorren-dark ${activeProductionStep === i ? 'text-dorren-dark underline decoration-2 underline-offset-4' : ''}`}>
                                 Шаг {i+1}
                               </button>
