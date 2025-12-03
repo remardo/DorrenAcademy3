@@ -384,7 +384,7 @@ export const Lesson2_1: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
                  <div>
                     <label className="block text-sm font-bold text-dorren-light mb-2">Тип объекта</label>
                     <select 
-                      className="w-full bg-white/10 border border-white/20 rounded p-3 text-white focus:border-dorren-light outline-none"
+                      className="w-full bg-white text-gray-900 border border-white/30 rounded p-3 focus:border-dorren-light outline-none shadow-sm"
                       onChange={(e) => setSelectorObject(e.target.value)}
                     >
                        <option value="">Выберите...</option>
@@ -397,7 +397,7 @@ export const Lesson2_1: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
                  <div>
                     <label className="block text-sm font-bold text-dorren-light mb-2">Главный приоритет</label>
                     <select 
-                      className="w-full bg-white/10 border border-white/20 rounded p-3 text-white focus:border-dorren-light outline-none"
+                      className="w-full bg-white text-gray-900 border border-white/30 rounded p-3 focus:border-dorren-light outline-none shadow-sm"
                       onChange={(e) => setSelectorPriority(e.target.value)}
                     >
                        <option value="">Выберите...</option>
