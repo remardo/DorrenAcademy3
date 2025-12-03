@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, HelpCircle, ChevronRight, 
-  Wind, Volume2, Flame, Shield, CheckCircle, 
-  AlertTriangle, MousePointer, Layers, MoveVertical, Droplets, Mic
+  ArrowRight, ChevronRight, 
+  Wind, Flame, MoveVertical
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 
@@ -13,7 +12,6 @@ interface LessonProps {
 }
 
 export const Lesson3_3: React.FC<LessonProps> = ({ onBack, onNavigate }) => {
-  const [introSurvey, setIntroSurvey] = useState<number | null>(null);
   const [activeSeal, setActiveSeal] = useState<string | null>(null);
   const [thresholdRoom, setThresholdRoom] = useState<string | null>(null);
   

@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, Box, Shield, 
-  HelpCircle, ChevronRight, PenTool, 
-  LayoutTemplate, Frame, BrickWall, Wrench, AlertTriangle, Hammer,
-  CheckCircle, XCircle
+  ArrowRight, Clock, Box, 
+  HelpCircle, PenTool, 
+  LayoutTemplate, Frame, BrickWall, Wrench, AlertTriangle,
+  CheckCircle
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

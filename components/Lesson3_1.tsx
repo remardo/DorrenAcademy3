@@ -3,8 +3,7 @@ import React, { useState } from 'react';
 import { 
   ArrowRight, CheckCircle, Clock, Layers, Box, Shield, Eye, Flame, Volume2, 
   HelpCircle, ChevronRight, Scale, DollarSign, PenTool, LayoutTemplate, 
-  Image as ImageIcon,
-  Zap
+  Image as ImageIcon
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 

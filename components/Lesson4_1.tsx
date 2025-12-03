@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, ChevronRight, 
+  ArrowRight, ChevronRight, 
   Settings, CheckCircle, Lock, Move
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';

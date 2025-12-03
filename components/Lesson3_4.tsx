@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import { 
-  ArrowRight, Clock, HelpCircle, ChevronRight, 
+  ArrowRight, ChevronRight, 
   Shield, Flame, Zap, CheckCircle, Layers, 
-  Thermometer, Mic, Eye, AlertTriangle
+  AlertTriangle
 } from 'lucide-react';
 import { LessonHeader } from './Navigation';
 
